@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/css/style.css" rel="stylesheet" />
+    <title>Momentom</title>
+</head>
+<body>
+    <div id="root">
+        <main>
+            <form id="clock-form">
+                <h1 id="clock">00:00:00</h1>
+            </form>            
+            <div id="greeting-form">
+                <form id="login-form" class="hidden">
+                    <input type="text" required placeholder="What your name?" />
+                    <input type="submit" value="click" />
+                </form>
+                <h1 id="greeting" class="hidden"></h1>  
+            </div>
+            <div id="todo-div">
+                <form id="todo-form">
+                    <input id="todo-input" type="text" required placeholder="please input to-do and Enter click." />
+                </form>
+                <li id="todo-list"></li>    
+            </div>
+            
+        </main>
+        <footer>
+            <form id="weather-form">
+                <span></span>
+                <span></span>
+            </form>
+            <form id="quote-form">
+                <span></span>
+                <span></span>
+            </form>
+            <span>G.H Byeon</span>
+        </footer>
+    </div>
+    <script src="src/js/greeting.js"></script>
+    <script src="src/js/clock.js"></script>
+    <script src="src/js/background.js"></script>
+    <script src="src/js/quotes.js"></script>
+    <script src="src/js/todo.js"></script>
+    <script src="src/js/weather.js"></script>
+</body>
+</html>
